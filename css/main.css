@@ -1,0 +1,271 @@
+* {
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+		"Open Sans", "Helvetica Neue", sans-serif;
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+/* hide */
+#error {
+	display: none;
+	visibility: hidden;
+}
+
+main {
+	width: 100vw;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* navigation bar */
+
+nav {
+	position: fixed;
+	display: flex;
+	color: whitesmoke;
+	background: black;
+	justify-content: center;
+	flex-direction: row;
+	width: 100vw;
+	z-index: 1;
+	opacity: 0.85;
+	box-shadow: 10px 10px 30px black;
+}
+
+.nav_button,
+.dropdown_button,
+.dropdown_item {
+	padding: 0.7rem 1rem;
+	text-decoration: none;
+	color: whitesmoke;
+	font-size: 1.7rem;
+	display: inline-block;
+	font-weight: bolder;
+	opacity: 0.9;
+	text-align: center;
+	transition: all 0.3s;
+}
+
+.nav_button:hover {
+	color: black;
+	background: whitesmoke;
+}
+
+/* home */
+.cover {
+	display: flex;
+	flex-direction: column;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url(/img/main_cover.jpg) fixed no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	color: whitesmoke;
+	width: 100%;
+	height: 100vh;
+}
+
+.tour_button {
+	cursor: pointer;
+	border: solid 1px;
+	padding: 0.5rem;
+	transition: all 0.5s;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+.tour_button:hover {
+	color: black;
+	background: whitesmoke;
+	border: solid 1px whitesmoke;
+	opacity: 0.8;
+}
+
+/* about */
+#about {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	width: 100vw;
+	padding: 4rem 4rem;
+	background: rgba(0, 0, 0, 0.9);
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow: 5px 5px 20px black;
+}
+
+/* about */
+ul {
+	list-style: none;
+}
+
+.intro_info {
+	display: inline-block;
+	padding: 1rem;
+	margin: 2rem 0;
+}
+
+.intro_info {
+	font-size: 1.7rem;
+}
+
+.titles {
+	font-size: 2.5rem;
+	padding: 1rem 0;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+/* fact */
+#fact {
+	width: 720px;
+	display: flex;
+	padding-top: 2rem;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.fact_body {
+	margin-bottom: 4rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.fact_reverse {
+	flex-direction: row-reverse;
+}
+
+.fact_info {
+	padding: 0 2rem;
+	line-height: 1.8rem;
+}
+
+.fact_info p {
+	font-size: 1.2rem;
+}
+
+.fact_image {
+	width: 45%;
+	align-self: center;
+	box-shadow: 10px 10px 30px grey;
+	transition: all 1s;
+}
+
+.fact_image:hover {
+	box-shadow: 0 0 30px black;
+	transform: scale(1.1);
+}
+
+/* tour */
+
+#tour {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	background: #e9e9e9;
+	padding: 5% 0;
+}
+
+.tour {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.tour_card {
+	position: relative;
+	background: rgb(204, 204, 204);
+	margin: 1rem 0.5rem;
+	border-radius: 10px;
+	height: 45vh;
+	width: 42%;
+	box-shadow: 0px 3px 10px grey;
+	transition: all 1s;
+}
+
+.tour_card:hover {
+	transform: scale(1.01);
+	box-shadow: 10px 10px 10px grey;
+}
+
+/* use image background for size */
+.tour_1st {
+	background: url(https://www.planetware.com/photos-large/PHI/philippines-boracay-beach-and-boats.jpg);
+}
+
+.tour_2nd {
+	background: url(https://justtravelousfour.files.wordpress.com/2019/04/chocolate-hills.jpg);
+}
+
+.tour_3rd {
+	background: url(http://destinationbeast.com/wp-content/uploads/2021/06/Banaue-Rice-Terraces-9.jpg);
+}
+
+.tour_4th {
+	background: url(https://heydelin.files.wordpress.com/2014/03/imgp0216.jpg);
+}
+
+.tour_5th {
+	background: url(https://wanderera.com/wp-content/uploads/2019/08/vigan-6-of-7.jpg);
+}
+
+/* property of image background */
+.tour_image {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 85%;
+	border-radius: 6px;
+}
+
+.tour_card h2 {
+	padding-block: 0.5rem;
+	font-size: 1.3rem;
+	overflow: hidden;
+}
+
+.tour_card h3 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	padding: 3px 6px;
+	background: rgb(242, 243, 155);
+}
+
+footer {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.85);
+	background: black;
+	width: 100vw;
+	font-size: 2rem;
+	transition: all 1s;
+	padding: 1rem 0;
+}
+
+footer *:hover {
+	color: wheat;
+}
+
+footer a {
+	text-decoration: none;
+	color: inherit;
+	font-size: 1.8rem;
+}
