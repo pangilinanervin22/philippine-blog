@@ -14,10 +14,11 @@
 
 		<link rel="stylesheet" href="css/main.css" />
 		<link rel="stylesheet" href="css/mobile.css" />
-		<script
-			src="https://kit.fontawesome.com/25c562aa2d.js"
-			crossorigin="anonymous"
-		></script>
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet"
+		/>
+
 		<title>Philippines Blog</title>
 	</head>
 	<body>
@@ -96,7 +97,11 @@
 			<h2 class="titles">&#60; Facts &#62;</h2>
 
 			<!-- fact 1st -->
-			<article class="fact_body">
+			<article
+				class="fact_body"
+				data-aos="zoom-out"
+				data-aos-duration="5000"
+			>
 				<div class="fact_info">
 					<h2 class="fact_highlight">1. There are 7,641 islands</h2>
 					<br />
@@ -114,8 +119,13 @@
 					alt=""
 				/>
 			</article>
+
 			<!--fact 2nd -->
-			<article class="fact_body fact_reverse">
+			<article
+				class="fact_body fact_reverse"
+				data-aos="zoom-out"
+				data-aos-duration="5000"
+			>
 				<div class="fact_info">
 					<h2 class="fact_highlight">
 						2. There are 175+ languages in the country
@@ -138,7 +148,11 @@
 			</article>
 
 			<!-- fact 3rd -->
-			<article class="fact_body">
+			<article
+				class="fact_body"
+				data-aos="zoom-out"
+				data-aos-duration="5000"
+			>
 				<div class="fact_info">
 					<h2 class="fact_highlight">3. Fiesta all over the city</h2>
 					<br />
@@ -157,7 +171,11 @@
 				/>
 			</article>
 			<!-- fact 4th -->
-			<article class="fact_body fact_reverse">
+			<article
+				class="fact_body fact_reverse"
+				data-aos="zoom-out"
+				data-aos-duration="5000"
+			>
 				<div class="fact_info">
 					<h2 class="fact_highlight">
 						4. English is more widely spoken than you think
@@ -185,7 +203,11 @@
 			<h2 class="titles">Featured Destination</h2>
 			<div class="tour">
 				<!-- 1st tour -->
-				<article class="tour_card">
+				<article
+					class="tour_card"
+					data-aos="zoom-out"
+					data-aos-duration="2000"
+				>
 					<h3>Boracay White Sand</h3>
 					<img
 						src="https://www.planetware.com/photos-large/PHI/philippines-boracay-beach-and-boats.jpg"
@@ -194,7 +216,11 @@
 					<h2>Malay,Aklan</h2>
 				</article>
 				<!-- 2nd tour -->
-				<article class="tour_card">
+				<article
+					class="tour_card"
+					data-aos="zoom-out"
+					data-aos-duration="3000"
+				>
 					<h3>Chocolate Hills</h3>
 					<img
 						src="https://justtravelousfour.files.wordpress.com/2019/04/chocolate-hills.jpg"
@@ -203,16 +229,24 @@
 					<h2>Carmen,Bohol</h2>
 				</article>
 				<!-- 3rd tour -->
-				<article class="tour_card">
+				<article
+					class="tour_card"
+					data-aos="zoom-out"
+					data-aos-duration="5000"
+				>
 					<h3>Banaue Rice Terraces</h3>
 					<img
-						src="http://destinationbeast.com/wp-content/uploads/2021/06/Banaue-Rice-Terraces-9.jpg"
+						src="https://images.pexels.com/photos/235925/pexels-photo-235925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 						alt="Banaue Rice Terraces"
 					/>
 					<h2>Ifugao,Mountain Province</h2>
 				</article>
 				<!-- 4th tour -->
-				<article class="tour_card">
+				<article
+					class="tour_card"
+					data-aos="zoom-out"
+					data-aos-duration="4000"
+				>
 					<h3>Big Lagoon</h3>
 					<img
 						src="https://heydelin.files.wordpress.com/2014/03/imgp0216.jpg"
@@ -221,7 +255,11 @@
 					<h2>Elnido,Palawan</h2>
 				</article>
 				<!-- 5th tour -->
-				<article class="tour_card">
+				<article
+					class="tour_card"
+					data-aos="zoom-out"
+					data-aos-duration="5000"
+				>
 					<h3>Calle Crisologo</h3>
 					<img
 						src="https://wanderera.com/wp-content/uploads/2019/08/vigan-6-of-7.jpg"
@@ -234,12 +272,6 @@
 
 		<!-- footer end -->
 		<footer id="contact">
-			<!-- <a class="" href="#">HOME</a>
-			<a class="" href="#about">ABOUT </a>
-			<a class="" href="#fact">FACT</a>
-			<a class="" href="#tour">TOUR</a>
-			<a class="" href="#contact">CONTACT</a>
-			<br /> -->
 			<h2 class="titles">&#60; Contact Developer &#62;</h2>
 			<a target="blank" href="https://www.facebook.com/pangilinanervin22">
 				<i class="fab fa-facebook"></i
@@ -251,6 +283,15 @@
 				<i class="fab fa-google"></i>
 			</a>
 		</footer>
+
 		<script defer src="index.js"></script>
+		<script
+			src="https://kit.fontawesome.com/25c562aa2d.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 	</body>
 </html>
