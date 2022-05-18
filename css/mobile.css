@@ -3,7 +3,7 @@
 	display: none;
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 720px) {
 	nav {
 		justify-content: flex-end;
 	}
@@ -17,7 +17,6 @@
 	}
 
 	.menu {
-		height: 100%;
 		display: block;
 		text-align: center;
 	}
@@ -37,7 +36,7 @@
 	.nav_dropdown {
 		position: fixed;
 		bottom: 100%;
-		width: 100vw;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		background-color: black;
@@ -48,7 +47,7 @@
 	}
 
 	#fact {
-		width: auto;
+		width: 80%;
 	}
 
 	.fact_body {
@@ -56,11 +55,10 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		padding: 0 1rem;
 	}
 
 	.fact_image {
-		width: 80%;
+		width: 100%;
 	}
 
 	.fact_info {
@@ -68,7 +66,6 @@
 	}
 
 	.tour_card {
-		height: 50vh;
 		width: 80%;
 	}
 
