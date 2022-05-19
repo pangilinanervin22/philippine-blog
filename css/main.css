@@ -127,7 +127,7 @@ nav {
 
 /* fact */
 #fact {
-	width: 680px;
+	width: 700px;
 	display: flex;
 	padding-top: 2rem;
 	flex-direction: column;
@@ -137,11 +137,10 @@ nav {
 
 .fact_body {
 	margin-bottom: 4rem;
-	width: 100%;
+	width: 95%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 0 2rem;
 }
 
 .fact_reverse {
@@ -149,14 +148,13 @@ nav {
 }
 
 .fact_info {
-	width: 60%;
+	width: 50%;
 	line-height: 1.9rem;
-	font-size: 1.2rem;
+	margin: 0 1rem;
 }
 
 .fact_image {
-	width: 40%;
-	height: 100%;
+	width: 45%;
 	box-shadow: 10px 10px 30px grey;
 	transition: all 1s;
 }
