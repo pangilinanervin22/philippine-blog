@@ -153,6 +153,7 @@ p {
 }
 
 .fact_info {
+	width: 60%;
 	padding: 0 2rem;
 	line-height: 1.8rem;
 }
