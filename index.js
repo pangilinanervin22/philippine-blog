@@ -1,8 +1,19 @@
-const title = document.getElementById("title");
+const menuButton = document.getElementsByClassName("menu")[0];
+const dropDown = document.getElementsByClassName("nav_dropdown")[0];
 
-const list = ["Kamusta Ka", "Magandang Araw", "Salamat Sayo "];
+menuButton.addEventListener("click", function () {
+	dropDown.classList.toggle("hide");
+});
 
-let index = 0;
+dropDown.addEventListener("click", function () {
+	dropDown.classList.toggle("hide");
+});
+
+// const title = document.getElementById("title");
+
+// const list = ["Kamusta Ka", "Magandang Araw", "Salamat Sayo "];
+
+// let index = 0;
 
 // setTimeout(() => {
 // 	setInterval(() => {
@@ -16,14 +27,3 @@ let index = 0;
 // 		}, 100);
 // 	}, 3000);
 // }, 5000);
-
-const menuButton = document.getElementsByClassName("menu")[0];
-const dropDown = document.getElementsByClassName("nav_dropdown")[0];
-
-menuButton.addEventListener("click", function () {
-	dropDown.classList.toggle("hide");
-});
-
-dropDown.addEventListener("click", function () {
-	dropDown.classList.toggle("hide");
-});
