@@ -26,15 +26,15 @@ body {
 	color: whitesmoke;
 	width: 100vw;
 	height: 100vh;
-}
-
-.cover_content {
-	margin-top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 h1 {
 	font-size: 85px;
 	font-weight: 600;
+	padding: 20px;
 }
 
 h2 {
@@ -64,9 +64,11 @@ button {
 
 section {
 	width: 100vw;
-	height: 100vh;
+	padding: 40px 20px;
 }
 
 img {
-	height: 50%;
+	max-width: 360px;
+	width: 80vw;
+	object-fit: contain;
 }
