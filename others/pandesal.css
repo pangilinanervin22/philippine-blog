@@ -26,10 +26,9 @@ body {
 	color: whitesmoke;
 	width: 100vw;
 	height: 100vh;
-}
-
-.cover div {
-	margin-top: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 h1 {
