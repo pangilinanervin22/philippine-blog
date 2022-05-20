@@ -3,6 +3,10 @@
 	display: none;
 }
 
+.hide {
+	transform: translatey(100%);
+}
+
 @media screen and (max-width: 680px) {
 	nav {
 		justify-content: flex-end;
@@ -47,7 +51,7 @@
 	}
 
 	#fact {
-		width: 100vw;
+		width: 85vw;
 	}
 
 	.fact_body {
@@ -62,18 +66,14 @@
 	}
 
 	.fact_info {
-		width: 80%;
+		width: 90%;
 		margin: 1rem 0;
 	}
 
 	.tour_card {
 		width: 80%;
-		height: 250px;
+		height: 300px;
 	}
-}
-
-.hide {
-	transform: translatey(100%);
 }
 
 @media screen and (min-width: 1080px) {

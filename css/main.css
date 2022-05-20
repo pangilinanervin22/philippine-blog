@@ -14,7 +14,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	overflow-x: hidden;
-	width: 100vw !important;
+	width: 100vw;
 }
 
 main {
@@ -81,9 +81,9 @@ nav {
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-	font-size: 3rem;
+	font-size: 3.2rem;
 	color: whitesmoke;
-	width: 100%;
+	width: 100vw;
 	height: 100vh;
 }
 
@@ -150,7 +150,7 @@ nav {
 .fact_info {
 	width: 50%;
 	line-height: 1.9rem;
-	margin: 0 1rem;
+	margin: 0 2rem;
 }
 
 .fact_image {
