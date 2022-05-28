@@ -17,10 +17,6 @@ body {
 	width: 100vw;
 }
 
-main {
-	width: 100%;
-}
-
 ul {
 	list-style: none;
 }
@@ -71,13 +67,9 @@ nav {
 
 /* home */
 .cover {
+	position: relative;
 	display: flex;
 	flex-direction: column;
-	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-		url(https://pangilinanervin22.github.io/philippine-blog/img/main_cover.jpg)
-			fixed no-repeat;
-	background-position: center;
-	background-size: cover;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
@@ -85,6 +77,16 @@ nav {
 	color: whitesmoke;
 	width: 100vw;
 	height: 100vh;
+}
+
+.myVideo {
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
 }
 
 .tour_button {
@@ -111,7 +113,7 @@ nav {
 	text-align: center;
 	align-items: center;
 	width: 100vw;
-	padding: 4rem 4rem;
+	padding: 50px 20px;
 	background: rgba(0, 0, 0, 0.9);
 	color: rgba(255, 255, 255, 0.85);
 	box-shadow: 5px 5px 20px black;
