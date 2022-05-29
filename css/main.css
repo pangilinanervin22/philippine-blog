@@ -171,6 +171,7 @@ nav {
 #tour {
 	width: 100vw;
 	background: #e9e9e9;
+	padding-block: 20px;
 }
 
 .tour_container {
@@ -219,19 +220,18 @@ footer {
 	color: rgba(255, 255, 255, 0.85);
 	background: black;
 	width: 100vw;
-	font-size: 1.1rem;
-	transition: all 1s;
-	padding: 1rem 0;
+	padding-block: 20px;
 }
 
-footer *:hover {
-	color: wheat;
+footer div {
+	padding: 20px;
 }
 
 footer a {
 	text-decoration: none;
 	color: inherit;
 	font-size: 1.8rem;
+	margin-inline: 5px;
 }
 
 body::-webkit-scrollbar {
