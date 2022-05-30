@@ -50,10 +50,6 @@
 		opacity: 0.95;
 	}
 
-	#fact {
-		width: 85vw;
-	}
-
 	.fact_body {
 		display: flex;
 		flex-direction: column;
@@ -73,15 +69,5 @@
 	.tour_card {
 		width: 80%;
 		height: 300px;
-	}
-}
-
-@media screen and (min-width: 1080px) {
-	.tour {
-		width: 95vw;
-	}
-
-	.tour_card {
-		width: 30%;
 	}
 }
