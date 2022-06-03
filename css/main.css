@@ -129,7 +129,7 @@ nav {
 
 /* fact */
 #fact {
-	width: clamp(360px, 85vw, 700px);
+	width: 80vw;
 	display: flex;
 	padding-top: 2rem;
 	flex-direction: column;
@@ -137,12 +137,12 @@ nav {
 	justify-content: center;
 }
 
-.fact_body {
+.fact_containers {
 	margin-bottom: 4rem;
-	width: 95%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	height: auto;
 }
 
 .fact_reverse {
@@ -156,9 +156,10 @@ nav {
 }
 
 .fact_image {
-	width: 45%;
+	width: 40%;
 	box-shadow: 10px 10px 30px grey;
 	transition: all 1s;
+	object-fit: cover;
 }
 
 .fact_image:hover {
@@ -236,11 +237,12 @@ footer a {
 }
 
 body::-webkit-scrollbar {
-	width: 5px;
+	width: 10px;
 }
 
 body::-webkit-scrollbar-thumb {
-	background: white;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
 }
 
 body::-webkit-scrollbar-track {
