@@ -1,0 +1,392 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+.cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url(https://images.pexels.com/photos/8585881/pexels-photo-8585881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+      fixed no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 85px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+  font-size: 85px;
+  font-weight: 600;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  color: rgb(16, 15, 15);
+  margin: 2 0px 0;
+}
+
+/* FoodCard start */
+.food {
+  background: whitesmoke;
+  text-align: center;
+}
+
+.food_container {
+  display: flex;
+  padding-block: 20px;
+  width: 85vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.food_title {
+  font-size: 50px;
+  padding-top: 30px;
+}
+
+.food_card {
+  width: 420px;
+  height: 500px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.food_card p {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 25%;
+}
+
+.food_card h3 {
+  background: #f4a460;
+  padding: 5px 10px;
+  border-radius: 10px;
+  width: fit-content;
+  font-size: 25px;
+}
+
+.food_card img {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+  border: #f8f5f5 solid 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #030000;
+}
+
+.food_card img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.4s ease-out;
+}
+/* FoodCard End */
+
+ul {
+  list-style: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  line-height: 80px;
+  color: #fff;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+a {
+  text-align: left;
+  color: rgb(13, 13, 13);
+  text-decoration: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5vh;
+  transition: 0.5s;
+  padding: 3px;
+}
+
+a:hover {
+  background: black;
+  border-radius: 10px;
+}
+
+header {
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+span {
+  color: lightskyblue;
+}
+
+.header_logo {
+  position: absolute;
+  height: 20vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: lightseagreen;
+  display: flex;
+  justify-content: center;
+}
+
+.third_cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url(https://images.pexels.com/photos/4253300/pexels-photo-4253300.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
+      fixed no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.second_cover {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url(https://cdn.cnn.com/cnnnext/dam/assets/200409112057-homemade-pasta.jpg)
+      fixed no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.about {
+  padding-block: 70px;
+  background: whitesmoke;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about p {
+  width: 75%;
+  font-size: 20px;
+}
+
+.about_container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 60px;
+}
+
+.about_item img {
+  width: 60px;
+  height: 60px;
+}
+.about_item img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.4s ease-out;
+}
+
+.about_item h4 {
+  padding-top: 20px;
+  font-size: 20px;
+}
+
+.gallery_container {
+  margin-top: 30px;
+}
+
+.gallery_info {
+  background-color: whitesmoke;
+  padding: 20px 50px;
+  width: fit-content;
+  border-radius: 30px 30px 0 0;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  padding: 20px 30px;
+  background-color: whitesmoke;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.gallery img {
+  width: 360px;
+  height: 250px;
+  margin: 30px;
+  border: #f8f5f5 solid 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #030000;
+}
+
+.gallery img:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.4s ease-out;
+}
+
+.footer-container {
+  background-color: #212329;
+  width: 100vw;
+  padding: 4rem 0 4rem;
+}
+
+.link-tags {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.link-tags img {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+}
+.link-tags img:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 0.4s ease-out;
+}
+
+.footer {
+  width: 90%;
+  margin: auto;
+  background-color: #212329;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.footer-heading {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.footer-heading h2 {
+  font-size: 25px;
+
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.footer-heading a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+.footer-heading a:hover {
+  cursor: pointer;
+  color: #cf6c20;
+  transition: 0.3s ease-out;
+  background: #c7bb82;
+}
+.footer-heading:hover {
+  cursor: pointer;
+  color: #f4a460;
+  transition: 0.3s ease-out;
+}
+
+.footer-email-form h3 {
+  margin-bottom: 2rem;
+}
+
+#footer-email {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+#footer-email::placeholder {
+  color: #b1b1b1;
+}
+
+#footer-email-btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #f9423d;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+#footer-email-btn:hover {
+  cursor: pointer;
+  background-color: #337af1;
+  transform: scale(1.1);
+  transition: all 0.4s ease-out;
+}

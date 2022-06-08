@@ -1,0 +1,122 @@
+{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+		Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+.cover {
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+		url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdrLzCRUUu5-YhKN0e1clrj6s3dXFuruiGD8iK2thqPXmS90jFBV2Y0--rafXASnR4MA&usqp=CAU)
+			fixed no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: whitesmoke;
+	width: 100vw;
+	height: 100vh;
+	display: flex ;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	font-size: 85px;
+	font-weight: 600;
+	padding: 20px;
+	
+}
+
+h2 {
+	font-size: 60px;
+	font-weight: 500;
+}
+
+h3 {
+	font-size: 30px;
+	font-weight: 300;
+}
+
+p {
+	font-size: 20px;
+	font-weight: 200;
+	color: rgb(16, 15, 15);
+	margin: 30px 0;
+}
+
+
+
+section {
+	width: 100vw;
+	padding: 40px 20px;
+}
+
+img {
+	max-width: 360px;
+	width: 80vw;
+	object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+ul{
+	list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+li{
+	line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a{
+	text-align: left;
+	color: rgb(13, 13, 13);
+	text-decoration:white;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 5vh;
+}
+a:hover{
+	transition: 0.5s;
+	background:black;
+    border border-radius: 10px;
+    color: white;
+
+
+}
+header{
+	width: 100%;
+	height: 70px;
+background-color: rgb(11, 63, 44);
+}
+h1{
+	position:absolute;
+	padding: 2px;px;
+	float: left;
+	margin-left: 2%;
+	margin-top: 5px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color:lightseagreen;
+}
+span{
+color: lightskyblue;
+}
