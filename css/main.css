@@ -106,6 +106,12 @@ nav {
 	opacity: 0.8;
 }
 
+.line_seperator {
+	width: clamp(200px, 85vw, 800px);
+	height: 3px;
+	background: whitesmoke;
+}
+
 /* about */
 #about {
 	display: flex;
@@ -124,7 +130,7 @@ nav {
 	display: inline-block;
 	padding: 1rem;
 	margin: 2rem 0;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 /* fact */
@@ -176,8 +182,7 @@ nav {
 }
 
 .item_symbol {
-	width: clamp(360px, 30vw, 380px);
-	height: clamp(280px, 80vh, 380px);
+	width: clamp(320px, 30vw, 380px);
 	background: #1e1f3b;
 	padding: 20px;
 	border-radius: 10%;
