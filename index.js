@@ -9,21 +9,22 @@ dropDown.addEventListener("click", function () {
 	dropDown.classList.toggle("hide");
 });
 
-// const title = document.getElementById("title");
+const title = document.getElementById("title");
 
-// const list = ["Kamusta Ka", "Magandang Araw", "Salamat Sayo "];
+const list = ["Kamusta Ka", "Magandang Araw", "Salamat Sayo "];
 
-// let index = 0;
+let index = 0;
 
-// setTimeout(() => {
-// 	setInterval(() => {
-// 		title.innerHTML = " ";
-// 		const next = list[index++ % 3];
-// 		let indexChart = 0;
-// 		const typeEveryLetter = setInterval(() => {
-// 			if (indexChart >= next.length) return clearInterval(typeEveryLetter);
+setTimeout(() => {
+	setInterval(() => {
+		title.innerHTML = " ";
+		const next = list[index++ % 3];
+		let indexChart = 0;
+		const typeEveryLetter = setInterval(() => {
+			if (indexChart >= next.length) return clearInterval(typeEveryLetter);
 
-// 			title.innerHTML += next[indexChart++];
-// 		}, 100);
-// 	}, 3000);
-// }, 5000);
+			title.innerHTML += next[indexChart++];
+		}, 100);
+	}, 3000);
+}, 5000);
+
